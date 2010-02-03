@@ -1,0 +1,14 @@
+# leiningen javac
+
+A java source compile plugin for lein   
+
+## Usage
+
+Java source in (:source-path project) will be compiled to 
+(:compile-path project)
+
+$ lein javac
+
+## Installation
+
+:dev-dependencies [[leiningen/lein-javac "1.0.0"]] 
