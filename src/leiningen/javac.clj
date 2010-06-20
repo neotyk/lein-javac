@@ -1,5 +1,5 @@
 (ns leiningen.javac
-  (:use [leiningen.compile :only [make-path find-lib-jars]]
+  (:use [leiningen.classpath :only [make-path find-lib-jars]]
         [clojure.contrib.java-utils :only [file]])
   (:import org.apache.tools.ant.taskdefs.Javac)
   (:import org.apache.tools.ant.types.Path)
