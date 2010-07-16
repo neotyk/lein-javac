@@ -1,4 +1,4 @@
-(defproject leiningen/lein-javac "1.0.0"
+(defproject org.clojars.neotyk/lein-javac "1.0.1"
   :description "Java compile plugin for leiningen"
   :dependencies [[org.clojure/clojure "1.1.0"]
                  [org.clojure/clojure-contrib "1.0-SNAPSHOT"]
